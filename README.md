@@ -27,7 +27,8 @@ and production-ready front-end architectures.
 
 ---
 
-🎯 Design Principles
+## 🎯 Design Principles
+
 Performance-first: Optimized assets and lean DOM structure.
 
 Responsive by default: Flawless experience from 4K monitors to mobile viewports.
@@ -38,12 +39,11 @@ Maintainable: Modular components and consistent naming conventions.
 
 ---
 
-📬 Connect with Me
-Portfolio: <https://marcrai.netlify.app/>
+### 📬 Connect with Me
 
-Email: <marc.rai@proton.me>
+- Portfolio: <https://marcrai.netlify.app/>
+- Email: <marc.rai@proton.me>
 
----
+### 📄 License
 
-📄 License
 Distributed under the MIT License. See LICENSE for more information.
