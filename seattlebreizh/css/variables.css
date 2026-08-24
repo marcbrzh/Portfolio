@@ -1,0 +1,42 @@
+:root {
+  /* Colors */
+  --color-cream: #F3EBDD;
+  --color-cream-dark: #E8DCC8;
+  --color-espresso: #2A1810;
+  --color-espresso-light: #4A3028;
+  --color-burgundy: #8B1E2D;
+  --color-burgundy-dark: #6B1522;
+  --color-mustard: #C8962E;
+  --color-mustard-light: #D4A843;
+  --color-diner-red: #C92735;
+  --color-diner-red-dark: #A11C2A;
+  --color-white: #FFFAF5;
+  --color-text: #3D2B22;
+  --color-text-muted: #6B5347;
+
+  /* Typography */
+  --font-display: 'Libre Baskerville', Georgia, serif;
+  --font-accent: 'Bebas Neue', 'Arial Narrow', sans-serif;
+  --font-body: 'Source Sans 3', 'Segoe UI', sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+
+  /* Layout */
+  --max-width: 1100px;
+  --header-height: 72px;
+
+  /* Effects */
+  --shadow-sm: 0 2px 8px rgba(42, 24, 16, 0.08);
+  --shadow-md: 0 6px 20px rgba(42, 24, 16, 0.12);
+  --shadow-lg: 0 12px 32px rgba(42, 24, 16, 0.16);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

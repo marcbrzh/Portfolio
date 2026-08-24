@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Marc — Web designer & développeur front-end. Portfolios de sites vitrines statiques : toiture, carrosserie premium, comfort food. Direction artistique, intégration HTML/CSS/JS, responsive." />
+  <meta name="theme-color" content="#17181a" />
+  <title>Marc — Web Designer &amp; Développeur Front-end</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Marc — retour à l'accueil">
+        <span class="brand__mark" aria-hidden="true">M</span>
+        <span class="brand__text">
+          <span class="brand__name">Marc</span>
+          <span class="brand__tag">Web design &amp; développement</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="#projets">Projets</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact" class="nav-cta">Me contacter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top" aria-label="Présentation">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Portfolio · Lorient, Bretagne</p>
+          <h1 class="hero__title">Des sites vitrines pensés, conçus et développés.</h1>
+          <p class="hero__lead">
+            Je conçois et développe des sites statiques soignés et performants pour
+            artisans, ateliers et restaurateurs — de la direction artistique à
+            l'intégration HTML, CSS et JavaScript, avec une expérience responsive
+            irréprochable.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--solid" href="#projets">Voir mes projets</a>
+            <a class="btn btn--ghost" href="#contact">Me contacter</a>
+          </div>
+        </div>
+
+        <div class="hero__collage" aria-hidden="true">
+          <a class="collage__item collage__item--a" href="#projet-atelier" tabindex="-1">
+            <img src="assets/images/atelier-classic.jpg" alt="" loading="eager" />
+          </a>
+          <a class="collage__item collage__item--b" href="#projet-abris" tabindex="-1">
+            <img src="assets/images/abris-hero.jpg" alt="" loading="eager" />
+          </a>
+          <a class="collage__item collage__item--c" href="#projet-seattle" tabindex="-1">
+            <img src="assets/images/seattle-hero.jpg" alt="" loading="eager" />
+          </a>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+        Défiler
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section" id="projets" aria-labelledby="projets-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Projets sélectionnés</p>
+          <h2 class="section__title" id="projets-title">Trois univers, trois sites vitrines</h2>
+          <p class="section__sub">
+            Des sites complets livrés sans framework ni CMS — HTML, CSS et JavaScript,
+            de la direction artistique au déploiement statique.
+          </p>
+        </header>
+
+        <div class="projects">
+
+          <!-- Abris-Toit-Ouest -->
+          <article class="project" id="projet-abris">
+            <a class="project__media" href="projects/Abris%20Toit%20Ouest/index.html">
+              <img src="assets/images/abris-hero.jpg" alt="Toiture en ardoise et zinc, chantier de rénovation Abris-Toit-Ouest" loading="lazy" />
+            </a>
+            <div class="project__body">
+              <div class="project__meta">
+                <span class="tag">Artisan · Lorient</span>
+                <span class="project__year">2025</span>
+              </div>
+              <h3 class="project__title">Abris-Toit-Ouest</h3>
+              <p class="project__text">
+                Site vitrine multi-pages pour un artisan couvreur : couverture zinc
+                &amp; ardoise, nettoyage et hydrofuge, traitement charpente, pose Velux.
+                Galeries avant/après documentées et urgence fuite 24h/7j.
+              </p>
+              <div class="project__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+              </div>
+              <a class="project__link" href="projects/Abris%20Toit%20Ouest/index.html">
+                Voir le projet <span aria-hidden="true">→</span>
+              </a>
+            </div>
+            <div class="project__extra">
+              <figure class="ba">
+                <img src="assets/images/abris-avant.jpg" alt="Toiture avant rénovation" loading="lazy" />
+                <figcaption>Avant</figcaption>
+              </figure>
+              <figure class="ba ba--after">
+                <img src="assets/images/abris-apres.jpg" alt="Toiture après rénovation" loading="lazy" />
+                <figcaption>Après</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <!-- Atelier Renaissance -->
+          <article class="project project--reverse" id="projet-atelier">
+            <a class="project__media" href="projects/Atelier%20Renaissance/index.html">
+              <img src="assets/images/atelier-classic.jpg" alt="Restauration de peinture d'un véhicule de collection chez Atelier Renaissance" loading="lazy" />
+            </a>
+            <div class="project__body">
+              <div class="project__meta">
+                <span class="tag">Carrosserie premium · Berné</span>
+                <span class="project__year">2025</span>
+              </div>
+              <h3 class="project__title">Atelier Renaissance</h3>
+              <p class="project__text">
+                Site vitrine premium pour un atelier de peinture et carrosserie de
+                véhicules de prestige : vidéo d'ouverture, galeries avant/après,
+                équipements en cabine et processus en 4 étapes.
+              </p>
+              <div class="project__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Direction artistique</span>
+              </div>
+              <a class="project__link" href="projects/Atelier%20Renaissance/index.html">
+                Voir le projet <span aria-hidden="true">→</span>
+              </a>
+            </div>
+            <div class="project__extra">
+              <figure class="ba">
+                <img src="assets/images/atelier-avant.jpg" alt="Réparation après choc — avant" loading="lazy" />
+                <figcaption>Avant</figcaption>
+              </figure>
+              <figure class="ba ba--after">
+                <img src="assets/images/atelier-apres.jpg" alt="Réparation après choc — après" loading="lazy" />
+                <figcaption>Après</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <!-- Seattle'Breizh -->
+          <article class="project" id="projet-seattle">
+            <a class="project__media" href="projects/SeattleBreizh/index.html">
+              <img src="assets/images/seattle-hero.jpg" alt="Plat de comfort food américaine du Seattle'Breizh" loading="lazy" />
+            </a>
+            <div class="project__body">
+              <div class="project__meta">
+                <span class="tag">Restaurant · Lorient</span>
+                <span class="project__year">2025</span>
+              </div>
+              <h3 class="project__title">Seattle'Breizh</h3>
+              <p class="project__text">
+                Site vitrine multi-pages pour un restaurant de comfort food américaine
+                vintage : carte interactive avec navigation sticky, identité visuelle
+                Americana et composants partagés (header/footer injectés).
+              </p>
+              <div class="project__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Design system</span>
+              </div>
+              <a class="project__link" href="projects/SeattleBreizh/index.html">
+                Voir le projet <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="section section--dark" id="a-propos" aria-labelledby="a-propos-title">
+      <div class="container about__grid">
+        <div class="about__text">
+          <p class="eyebrow">À propos</p>
+          <h2 class="section__title" id="a-propos-title">Design &amp; code, avec le même soin du détail</h2>
+          <p>
+            Je suis <strong>Marc</strong>, web designer et développeur front-end basé en
+            Bretagne. Mon approche : une direction artistique affirmée, un code simple
+            et robuste, et une attention constante aux détails — hiérarchie de contenu,
+            navigation responsive et performances.
+          </p>
+          <p>
+            Les trois projets ci-dessus sont des sites vitrines statiques complets,
+            construits en HTML, CSS et JavaScript, puis déployés sur hébergement
+            statique (GitHub Pages, Netlify, Vercel).
+          </p>
+        </div>
+
+        <div class="about__steps">
+          <div class="step">
+            <span class="step__num">01</span>
+            <div>
+              <h3>Direction artistique</h3>
+              <p>Palette, typographies, univers visuel adapté à chaque activité.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step__num">02</span>
+            <div>
+              <h3>Intégration &amp; contenu</h3>
+              <p>Maquette HTML/CSS/JS, mise en forme des contenus et médias.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step__num">03</span>
+            <div>
+              <h3>Responsive &amp; déploiement</h3>
+              <p>Tests mobile/tablette/desktop et mise en ligne sur hébergement statique.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="section" id="competences" aria-labelledby="competences-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Compétences</p>
+          <h2 class="section__title" id="competences-title">Ce que je maîtrise</h2>
+        </header>
+        <ul class="skills">
+          <li class="skill"><span class="skill__icon" aria-hidden="true">◐</span>Design responsive mobile / tablette / desktop</li>
+          <li class="skill"><span class="skill__icon" aria-hidden="true">◐</span>Intégration HTML5, CSS3, JavaScript vanilla</li>
+          <li class="skill"><span class="skill__icon" aria-hidden="true">◐</span>Design systems &amp; design tokens (variables CSS)</li>
+          <li class="skill"><span class="skill__icon" aria-hidden="true">◐</span>Direction artistique &amp; identité visuelle</li>
+          <li class="skill"><span class="skill__icon" aria-hidden="true">◐</span>Galeries avant/après &amp; gestion photo / vidéo</li>
+          <li class="skill"><span class="skill__icon" aria-hidden="true">◐</span>Composants partagés &amp; navigation interactive</li>
+          <li class="skill"><span class="skill__icon" aria-hidden="true">◐</span>Accessibilité &amp; performances</li>
+          <li class="skill"><span class="skill__icon" aria-hidden="true">◐</span>Déploiement statique — GitHub Pages, Netlify, Vercel</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--dark" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__inner">
+        <p class="eyebrow">Contact</p>
+        <h2 class="section__title" id="contact-title">Un projet de site vitrine en tête ?</h2>
+        <p class="section__sub">
+          Parlons de votre activité et de vos objectifs. Basé à Lorient (56),
+          disponible en Bretagne et en télétravail.
+        </p>
+        <!-- Remplacez l'adresse e-mail par la vôtre -->
+        <a class="btn btn--solid btn--lg" href="mailto:marc.rai@proton.me">marc.rai@proton.me</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">Marc · Web design &amp; développement</p>
+      <nav class="footer__nav" aria-label="Navigation de pied de page">
+        <a href="#projets">Projets</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__note">© 2025 Marc — Conçu et développé en HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var header = document.getElementById('site-header');
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      var open = false;
+
+      function onScroll() {
+        header.classList.toggle('is-scrolled', window.scrollY > 12);
+      }
+
+      function setOpen(value) {
+        open = value;
+        toggle.setAttribute('aria-expanded', String(open));
+        nav.classList.toggle('is-open', open);
+        document.body.classList.toggle('no-scroll', open);
+      }
+
+      toggle.addEventListener('click', function () {
+        setOpen(!open);
+      });
+
+      nav.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') setOpen(false);
+      });
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  </script>
+</body>
+</html>
