@@ -12,9 +12,9 @@ and production-ready front-end architectures.
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **[Abris Toit Ouest](https://github.com/yourusername/abris-toit-ouest)** | Premium brand website for a French roofing renovation company. Built to convey trust, local heritage, and structural reliability through a clean, earthy visual language. | `HTML` · `SCSS` · `JavaScript` |
-| **[Atelier Renaissance](https://github.com/yourusername/atelier-renaissance)** | Elegant showroom website for a high-end automotive garage specializing in luxury and collector car paint restoration. Focused on visual prestige and meticulous craftsmanship. | `HTML` · `SCSS` · `JavaScript` |
-| **[SeattleBreizh](https://github.com/yourusername/seattlebreizh)** | Interactive restaurant landing page for a fictional fusion concept—American comfort food meets French/Breton crêperie. Vibrant, appetizing, and culturally playful. | `HTML` · `SCSS` · `JavaScript` |
+| **[Abris Toit Ouest](https://github.com/marcbrzh/abris-toit-ouest)** | Premium brand website for a French roofing renovation company. Built to convey trust, local heritage, and structural reliability through a clean, earthy visual language. | `HTML` · `CSS` · `JavaScript` |
+| **[Atelier Renaissance](https://github.com/marcbrzh/atelier-renaissance)** | Elegant showroom website for a high-end automotive garage specializing in luxury and collector car paint restoration. Focused on visual prestige and meticulous craftsmanship. | `HTML` · `CSS` · `JavaScript` |
+| **[SeattleBreizh](https://github.com/marcbrzh/seattlebreizh)** | Interactive restaurant landing page for a fictional American comfort food with french quality ingredients. Vibrant, appetizing, and culturally playful. | `HTML` · `CSS` · `JavaScript` |
 
 ---
 
@@ -43,7 +43,3 @@ Maintainable: Modular components and consistent naming conventions.
 
 - Portfolio: <https://marcrai.netlify.app/>
 - Email: <marc.rai@proton.me>
-
-### 📄 License
-
-Distributed under the MIT License. See LICENSE for more information.
