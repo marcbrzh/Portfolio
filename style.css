@@ -435,6 +435,7 @@ h3 {
 .section__sub {
   color: var(--ink-soft);
   font-size: 1.02rem;
+  padding-bottom: 3rem;
 }
 
 /* ---------- Projects ---------- */
@@ -448,6 +449,7 @@ h3 {
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   gap: clamp(1.5rem, 3.5vw, 2.8rem);
   align-items: start;
+  margin-bottom: 3rem;
 }
 
 .project--reverse {
