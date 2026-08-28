@@ -292,6 +292,39 @@
       window.addEventListener('scroll', onScroll, { passive: true });
       onScroll();
     })();
+
+    (function () {
+      var section = document.getElementById('a-propos');
+      var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      var ticking = false;
+
+      function updateParallax() {
+        if (reducedMotion.matches) {
+          section.style.setProperty('--parallax-y', '0px');
+          return;
+        }
+
+        var rect = section.getBoundingClientRect();
+        var distance = window.innerHeight / 2 - (rect.top + rect.height / 2);
+        var offset = distance * 0.20;
+
+        section.style.setProperty('--parallax-y', offset + 'px');
+        ticking = false;
+      }
+
+      function requestUpdate() {
+        if (!ticking) {
+          window.requestAnimationFrame(updateParallax);
+          ticking = true;
+        }
+      }
+
+      window.addEventListener('scroll', requestUpdate, { passive: true });
+      window.addEventListener('resize', requestUpdate);
+      reducedMotion.addEventListener('change', requestUpdate);
+
+      updateParallax();
+    })();
   </script>
 </body>
 </html>
